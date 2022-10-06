@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@master
         with:
-          filename: metrics.base.svg
+          filename: base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
           user: tjuedema
@@ -22,7 +22,7 @@ jobs:
       - name: LeetCode
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.leetcode.svg
+          filename: leetcode.svg
           token: NOT_NEEDED
           base: ""
           plugin_leetcode: yes
