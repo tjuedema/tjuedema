@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
       - name: LeetCode
-        uses: lowlighter/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.leetcode.svg
           token: NOT_NEEDED
@@ -25,6 +25,5 @@ jobs:
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
           output_action: none
-          delay: 120
-          user: lowlighter
+          user: TannerBJ
           plugins_errors_fatal: yes
