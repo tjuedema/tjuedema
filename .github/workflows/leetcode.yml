@@ -17,7 +17,6 @@ jobs:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
-          output_action: none
           user: tjuedema
           plugins_errors_fatal: yes
       - name: LeetCode
@@ -28,6 +27,5 @@ jobs:
           base: ""
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
-          output_action: none
           user: TannerBJ
           plugins_errors_fatal: yes
