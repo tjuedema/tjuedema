@@ -1,2 +1,1 @@
-![GitHub Metrics](/base.svg)
-![LeetCode Metrics](/leetcode.svg)
+![GitHub Metrics](/base.svg)        ![LeetCode Metrics](/leetcode.svg)
