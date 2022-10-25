@@ -29,3 +29,13 @@ jobs:
           plugin_leetcode_sections: solved, skills, recent
           user: TannerBJ
           plugins_errors_fatal: yes
+      - name: stackoverflow
+        uses: lowlighter/metrics@latest
+        with:
+          filename: stackoverflow.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 20178809
+          plugin_stackoverflow_sections: 
+          plugin_stackoverflow_limit: 2
