@@ -38,4 +38,4 @@ jobs:
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 20178809
           plugin_stackoverflow_sections: 
-          plugin_stackoverflow_limit: 2
+          plugin_stackoverflow_limit: 1
